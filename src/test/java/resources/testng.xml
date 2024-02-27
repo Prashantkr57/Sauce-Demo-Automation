@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="LoginTestSuite">
+	<listeners>
+        <listener class-name="prashant_sauce_demo_automation_pages.TestListener"/>
+    </listeners>
+  <test name="LoginTest">
+    <classes>
+      <class name="prashant_sauce_demo_automation_tests.LoginTest"/>
+      <class name="prashant_sauce_demo_automation_tests.InventoryTest"/>
+      <class name="prashant_sauce_demo_automation_tests.CartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
