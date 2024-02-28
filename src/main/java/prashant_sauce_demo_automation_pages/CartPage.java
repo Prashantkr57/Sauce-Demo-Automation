@@ -27,10 +27,17 @@ public class CartPage {
 	@FindBy(css = ".cart_item")
     private List<WebElement> cartItems;
 	
+	@FindBy(xpath = "//button[@name='checkout']")
+	private WebElement checkout;
+	
 	public List<String> getCartItemsNames() {
 	    return cartItems.stream()
 	                    .map(item -> item.findElement(By.cssSelector(".inventory_item_name")).getText())
 	                    .collect(Collectors.toList());
+	}
+	
+	public void proceedToCheckout() {
+		checkout.click();
 	}
 
 
