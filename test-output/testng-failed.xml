@@ -6,15 +6,13 @@
   </listeners>
   <test thread-count="5" name="LoginTest(failed)">
     <classes>
-      <class name="prashant_sauce_demo_automation_tests.CheckoutStepTwoTest">
+      <class name="prashant_sauce_demo_automation_tests.CheckoutCompleteTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testScrollToFinishButton"/>
-          <include name="testItemTotalBeforeTaxIsSumOfIndividualItems"/>
-          <include name="navigateToCheckoutPage"/>
+          <include name="testOrderConfirmationMessage"/>
         </methods>
-      </class> <!-- prashant_sauce_demo_automation_tests.CheckoutStepTwoTest -->
+      </class> <!-- prashant_sauce_demo_automation_tests.CheckoutCompleteTest -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [LoginTestSuite] -->

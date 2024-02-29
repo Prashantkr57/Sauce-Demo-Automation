@@ -6,11 +6,12 @@
     </listeners>
   <test name="LoginTest">
     <classes>
-      <!--class name="prashant_sauce_demo_automation_tests.LoginTest"/>
+      <class name="prashant_sauce_demo_automation_tests.LoginTest"/>
       <class name="prashant_sauce_demo_automation_tests.InventoryTest"/>
-      <class name="prashant_sauce_demo_automation_tests.CartTest"/-->
+      <class name="prashant_sauce_demo_automation_tests.CartTest"/>
       <class name="prashant_sauce_demo_automation_tests.CheckoutStepOneTest"/>
-      <class name="prashant_sauce_demo_automation_tests.CheckoutStepTwoTest"></class>
+      <class name="prashant_sauce_demo_automation_tests.CheckoutStepTwoTest"/>
+      <class name="prashant_sauce_demo_automation_tests.CheckoutCompleteTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="prashant_sauce_demo_automation_tests.CartTest">
+      <class name="prashant_sauce_demo_automation_tests.CheckoutCompleteTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyItemsAddedToCart"/>
           <include name="tearDown"/>
+          <include name="testOrderConfirmationMessage"/>
         </methods>
-      </class> <!-- prashant_sauce_demo_automation_tests.CartTest -->
+      </class> <!-- prashant_sauce_demo_automation_tests.CheckoutCompleteTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

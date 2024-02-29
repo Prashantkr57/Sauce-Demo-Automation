@@ -1,67 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T01:49:28 IST" name="LoginTestSuite" finished-at="2024-02-29T01:49:48 IST" duration-ms="19251">
+  <suite started-at="2024-03-01T00:36:17 IST" name="LoginTestSuite" finished-at="2024-03-01T00:37:15 IST" duration-ms="58212">
     <groups>
     </groups>
-    <test started-at="2024-02-29T01:49:28 IST" name="LoginTest" finished-at="2024-02-29T01:49:48 IST" duration-ms="19251">
-      <class name="prashant_sauce_demo_automation_tests.CheckoutStepTwoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepTwoTest@f78a47e]" started-at="2024-02-29T01:49:42 IST" name="setUp" finished-at="2024-02-29T01:49:47 IST" duration-ms="5046" status="PASS">
+    <test started-at="2024-03-01T00:36:17 IST" name="LoginTest" finished-at="2024-03-01T00:37:15 IST" duration-ms="58212">
+      <class name="prashant_sauce_demo_automation_tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.CartTest@2eae8e6e]" started-at="2024-03-01T00:36:43 IST" name="setUp" finished-at="2024-03-01T00:36:48 IST" duration-ms="4469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testItemTotalBeforeTaxIsSumOfIndividualItems()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepTwoTest@f78a47e]" started-at="2024-02-29T01:49:47 IST" name="testItemTotalBeforeTaxIsSumOfIndividualItems" finished-at="2024-02-29T01:49:47 IST" duration-ms="49" status="PASS">
+        <test-method signature="verifyItemsAddedToCart()[pri:0, instance:prashant_sauce_demo_automation_tests.CartTest@2eae8e6e]" started-at="2024-03-01T00:36:48 IST" name="verifyItemsAddedToCart" finished-at="2024-03-01T00:36:49 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashant_sauce_demo_automation_tests.CartTest@2eae8e6e]" started-at="2024-03-01T00:36:49 IST" name="tearDown" finished-at="2024-03-01T00:36:50 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- prashant_sauce_demo_automation_tests.CartTest -->
+      <class name="prashant_sauce_demo_automation_tests.CheckoutCompleteTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutCompleteTest@2cf3d63b]" started-at="2024-03-01T00:37:08 IST" name="setUp" finished-at="2024-03-01T00:37:14 IST" duration-ms="6099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOrderConfirmationMessage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutCompleteTest@2cf3d63b]" started-at="2024-03-01T00:37:14 IST" name="testOrderConfirmationMessage" finished-at="2024-03-01T00:37:14 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderConfirmationMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutCompleteTest@2cf3d63b]" started-at="2024-03-01T00:37:14 IST" name="tearDown" finished-at="2024-03-01T00:37:15 IST" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- prashant_sauce_demo_automation_tests.CheckoutCompleteTest -->
+      <class name="prashant_sauce_demo_automation_tests.CheckoutStepTwoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepTwoTest@470734c3]" started-at="2024-03-01T00:37:00 IST" name="setUp" finished-at="2024-03-01T00:37:07 IST" duration-ms="6610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testItemTotalBeforeTaxIsSumOfIndividualItems()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepTwoTest@470734c3]" started-at="2024-03-01T00:37:07 IST" name="testItemTotalBeforeTaxIsSumOfIndividualItems" finished-at="2024-03-01T00:37:07 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testItemTotalBeforeTaxIsSumOfIndividualItems -->
-        <test-method signature="testScrollToFinishButton()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepTwoTest@f78a47e]" started-at="2024-02-29T01:49:47 IST" name="testScrollToFinishButton" finished-at="2024-02-29T01:49:47 IST" duration-ms="64" status="PASS">
+        <test-method signature="testScrollToFinishButton()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepTwoTest@470734c3]" started-at="2024-03-01T00:37:07 IST" name="testScrollToFinishButton" finished-at="2024-03-01T00:37:07 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScrollToFinishButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepTwoTest@f78a47e]" started-at="2024-02-29T01:49:47 IST" name="tearDown" finished-at="2024-02-29T01:49:48 IST" duration-ms="832" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepTwoTest@470734c3]" started-at="2024-03-01T00:37:07 IST" name="tearDown" finished-at="2024-03-01T00:37:08 IST" duration-ms="841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- prashant_sauce_demo_automation_tests.CheckoutStepTwoTest -->
-      <class name="prashant_sauce_demo_automation_tests.CheckoutStepOneTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:29 IST" name="setUp" finished-at="2024-02-29T01:49:33 IST" duration-ms="4095" status="PASS">
+      <class name="prashant_sauce_demo_automation_tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:17 IST" name="setUp" finished-at="2024-03-01T00:36:22 IST" duration-ms="5510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:33 IST" name="navigateToCheckoutPage" finished-at="2024-02-29T01:49:37 IST" duration-ms="3957" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:22 IST" name="invalidLoginTest" finished-at="2024-03-01T00:36:23 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="restDriver()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:23 IST" name="restDriver" finished-at="2024-03-01T00:36:24 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:24 IST" name="setUp" finished-at="2024-03-01T00:36:28 IST" duration-ms="3917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedUserLoginTest()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:28 IST" name="lockedUserLoginTest" finished-at="2024-03-01T00:36:28 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedUserLoginTest -->
+        <test-method is-config="true" signature="restDriver()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:28 IST" name="restDriver" finished-at="2024-03-01T00:36:29 IST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:29 IST" name="setUp" finished-at="2024-03-01T00:36:35 IST" duration-ms="5843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:35 IST" name="validLoginTest" finished-at="2024-03-01T00:36:36 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="restDriver()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:36 IST" name="restDriver" finished-at="2024-03-01T00:36:37 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashant_sauce_demo_automation_tests.LoginTest@60bd273d]" started-at="2024-03-01T00:36:37 IST" name="tearDown" finished-at="2024-03-01T00:36:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- prashant_sauce_demo_automation_tests.LoginTest -->
+      <class name="prashant_sauce_demo_automation_tests.InventoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.InventoryTest@7d0b7e3c]" started-at="2024-03-01T00:36:37 IST" name="setUp" finished-at="2024-03-01T00:36:42 IST" duration-ms="5033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addToCart()[pri:0, instance:prashant_sauce_demo_automation_tests.InventoryTest@7d0b7e3c]" started-at="2024-03-01T00:36:42 IST" name="addToCart" finished-at="2024-03-01T00:36:42 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="verifyInventoryCount()[pri:0, instance:prashant_sauce_demo_automation_tests.InventoryTest@7d0b7e3c]" started-at="2024-03-01T00:36:42 IST" name="verifyInventoryCount" finished-at="2024-03-01T00:36:42 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryCount -->
+        <test-method signature="sortByPrice()[pri:1, instance:prashant_sauce_demo_automation_tests.InventoryTest@7d0b7e3c]" started-at="2024-03-01T00:36:42 IST" name="sortByPrice" finished-at="2024-03-01T00:36:42 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPrice -->
+        <test-method signature="verifyInventorySortingByPrice()[pri:2, instance:prashant_sauce_demo_automation_tests.InventoryTest@7d0b7e3c]" started-at="2024-03-01T00:36:42 IST" name="verifyInventorySortingByPrice" finished-at="2024-03-01T00:36:43 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInventorySortingByPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashant_sauce_demo_automation_tests.InventoryTest@7d0b7e3c]" started-at="2024-03-01T00:36:43 IST" name="tearDown" finished-at="2024-03-01T00:36:43 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- prashant_sauce_demo_automation_tests.InventoryTest -->
+      <class name="prashant_sauce_demo_automation_tests.CheckoutStepOneTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:50 IST" name="setUp" finished-at="2024-03-01T00:36:52 IST" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:52 IST" name="navigateToCheckoutPage" finished-at="2024-03-01T00:36:55 IST" duration-ms="2803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCheckoutPage -->
-        <test-method signature="verifyErrorforFirstName()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:37 IST" name="verifyErrorforFirstName" finished-at="2024-02-29T01:49:37 IST" duration-ms="361" status="PASS">
+        <test-method signature="verifyErrorforFirstName()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:55 IST" name="verifyErrorforFirstName" finished-at="2024-03-01T00:36:55 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyErrorforFirstName -->
-        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:37 IST" name="navigateToCheckoutPage" finished-at="2024-02-29T01:49:38 IST" duration-ms="1010" status="PASS">
+        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:55 IST" name="navigateToCheckoutPage" finished-at="2024-03-01T00:36:56 IST" duration-ms="1186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCheckoutPage -->
-        <test-method signature="verifyErrorforLastName()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:38 IST" name="verifyErrorforLastName" finished-at="2024-02-29T01:49:38 IST" duration-ms="274" status="PASS">
+        <test-method signature="verifyErrorforLastName()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:56 IST" name="verifyErrorforLastName" finished-at="2024-03-01T00:36:56 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyErrorforLastName -->
-        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:38 IST" name="navigateToCheckoutPage" finished-at="2024-02-29T01:49:39 IST" duration-ms="947" status="PASS">
+        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:56 IST" name="navigateToCheckoutPage" finished-at="2024-03-01T00:36:58 IST" duration-ms="1105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCheckoutPage -->
-        <test-method signature="verifyErrorforPostalCode()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:39 IST" name="verifyErrorforPostalCode" finished-at="2024-02-29T01:49:40 IST" duration-ms="275" status="PASS">
+        <test-method signature="verifyErrorforPostalCode()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:58 IST" name="verifyErrorforPostalCode" finished-at="2024-03-01T00:36:58 IST" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyErrorforPostalCode -->
-        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:40 IST" name="navigateToCheckoutPage" finished-at="2024-02-29T01:49:40 IST" duration-ms="892" status="PASS">
+        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:58 IST" name="navigateToCheckoutPage" finished-at="2024-03-01T00:36:59 IST" duration-ms="1099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCheckoutPage -->
-        <test-method signature="verifyNavigationtoCheckoutpageTwo()[pri:1, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:40 IST" name="verifyNavigationtoCheckoutpageTwo" finished-at="2024-02-29T01:49:41 IST" duration-ms="342" status="PASS">
+        <test-method signature="verifyNavigationtoCheckoutpageTwo()[pri:1, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:59 IST" name="verifyNavigationtoCheckoutpageTwo" finished-at="2024-03-01T00:36:59 IST" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationtoCheckoutpageTwo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@2e385cce]" started-at="2024-02-29T01:49:41 IST" name="tearDown" finished-at="2024-02-29T01:49:42 IST" duration-ms="796" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashant_sauce_demo_automation_tests.CheckoutStepOneTest@8f2ef19]" started-at="2024-03-01T00:36:59 IST" name="tearDown" finished-at="2024-03-01T00:37:00 IST" duration-ms="828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
